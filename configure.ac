@@ -20,7 +20,7 @@ m4_define([libxfce4util_version_major], [4])
 m4_define([libxfce4util_version_minor], [10])
 m4_define([libxfce4util_version_micro], [1])
 m4_define([libxfce4util_version_nano], [])   dnl leave this empty to have no nano version
-m4_define([libxfce4util_version_build], [d998d30])
+m4_define([libxfce4util_version_build], [fd52c1e])
 m4_define([libxfce4util_version_tag], [])
 m4_define([libxfce4util_version], [libxfce4util_version_major().libxfce4util_version_minor().libxfce4util_version_micro()ifelse(libxfce4util_version_nano(), [], [], [.libxfce4util_version_nano()])ifelse(libxfce4util_version_tag(), [git], [libxfce4util_version_tag()-libxfce4util_version_build()], [])])
 
